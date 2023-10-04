@@ -1,4 +1,3 @@
-# Write your solution here
 import json
 class Stats:
 
