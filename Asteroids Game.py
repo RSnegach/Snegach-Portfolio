@@ -1,4 +1,3 @@
-# WRITE YOUR SOLUTION HERE:
 from random import randint
 import pygame
 
