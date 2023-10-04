@@ -1,4 +1,3 @@
-# Complete your game here
 import pygame
 
 pygame.init()
