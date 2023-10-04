@@ -1,4 +1,3 @@
-# WRITE YOUR SOLUTION HERE:
 import pygame
 import math
 from datetime import datetime
