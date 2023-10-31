@@ -7,7 +7,7 @@ clock = pygame.time.Clock()
 game_font = pygame.font.SysFont("Arial", 24)
 pygame.display.set_caption("Mini Football")
 
-# the node class - the snake is made up of individual, doubly linked Node segments
+# the node class - the snake is made up of doubly linked Node segments
 class Node():
     def __init__(self, x_pos: int, y_pos:int, direction: str, prev, next):
         self.x_pos = x_pos
@@ -162,7 +162,7 @@ def spawn_coin():
 def draw_coin():
     global coin
     window.blit(coin_image,(coin.x_pos, coin.y_pos))
-# check if coin collected - if yes remove and spawn new
+# check if coin collected - if yes remove and spawn new coin and add a node at the snake's tail
 def collect_check():
     global game_score
     if head.x_pos == coin.x_pos and head.y_pos == coin.y_pos:
