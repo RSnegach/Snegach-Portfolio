@@ -106,27 +106,28 @@ def collision_check(node):
         if (head.y_pos > 640 or head.y_pos < 0) or (head.x_pos > 640 or head.x_pos < 0):
             fps = 0
             lose_message = game_font.render(f"Game Over! You Lose!", True, (255, 0, 0))
+            window.fill((0,0,0))
             window.blit(lose_message,(240,150))
         else:
             collision_check(node.prev)
     elif node.prev == None and node.next != None:
         if (head.x_pos == node.x_pos) and (head.y_pos == node.y_pos):
             fps = 0
-            lose_message = game_font.render(f"Game Over! You Win!", True, (255, 0, 0))
+            lose_message = game_font.render(f"Game Over! You Lose!", True, (255, 0, 0))
+            window.fill((0,0,0))
             window.blit(lose_message,(240,150))
         else:
             return
     else:
         if (head.x_pos == node.x_pos) and (head.y_pos == node.y_pos):
             fps = 0
-            lose_message = game_font.render(f"Game Over! You Win!", True, (255, 0, 0))
+            lose_message = game_font.render(f"Game Over! You Lose!", True, (255, 0, 0))
+            window.fill((0,0,0))
             window.blit(lose_message,(240,150))
         else:
             collision_check(node.prev)
 # get the acceptable coordinate locations to spawn a coin (i.e, where snake is not)
 def get_coords(node):
-    global ref_coords
-    ref_coords = []
     if node.prev == None:
         ref_coords.append([node.x_pos, node.y_pos])
         return
