@@ -125,6 +125,8 @@ def collision_check(node):
             collision_check(node.prev)
 # get the acceptable coordinate locations to spawn a coin (i.e, where snake is not)
 def get_coords(node):
+    global ref_coords
+    ref_coords = []
     if node.prev == None:
         ref_coords.append([node.x_pos, node.y_pos])
         return
@@ -137,10 +139,10 @@ coords = []
 #list of coords where snake is occupying
 ref_coords = []
 
+# coordinates for all 256 spawn locations on game screen
 for x in range(0,640,40):
     for y in range(0,640,40):
         coords.append([x,y])
-print(coords)
 
 # representation of coin which snake must collect
 coin = Coin(600,600, False)
@@ -150,7 +152,7 @@ def spawn_coin():
     global ref_coords
     global coin
 
-    #coordinates not permitted if snake is occupying them
+    #coordinates not permitted for coin spawn if snake is occupying them
     permitted_coords = list(filter(lambda x: x not in ref_coords, coords))
     rand_index = randint(0, len(permitted_coords))
     rand_coords = permitted_coords[rand_index]
