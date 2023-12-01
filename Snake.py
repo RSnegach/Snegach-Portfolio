@@ -5,7 +5,7 @@ pygame.init()
 window = pygame.display.set_mode((640,640))
 clock = pygame.time.Clock()
 game_font = pygame.font.SysFont("Arial", 24)
-pygame.display.set_caption("Mini Football")
+pygame.display.set_caption("Snake")
 
 # the node class - the snake is made up of doubly linked Node segments
 class Node():
