@@ -1,0 +1,5 @@
+Both models are built to read stats in CSV format from https://fbref.com/. Find desired team and convert stats table into csv file to train models.
+Model 1 - Decision Tree.py: Decision Tree Regression, currently less accurate than Perceptron
+Model 2 - Perceptron.py: Current most accurate model.
+
+NOTE: Both models become more accurate with larger training dataset. Use data from multiple past seasons within context and at own discretion.
