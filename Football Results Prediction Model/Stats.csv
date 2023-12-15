@@ -1,0 +1,23 @@
+﻿Date,Time,Comp,Round,Day,Venue,Result,GF,GA,Opponent,Gls,Sh,SoT,SoT%,G/Sh,G/SoT,Dist,FK,PK,PKatt,xG,npxG,npxG/Sh,G-xG,np:G-xG,Match Report
+8/13/2023,21:30 (15:30),La Liga,Matchweek 1,Sun,Away,D,0,0,Getafe,0,14,3,21.4,0,0,19.9,1,0,0,1.4,1.4,0.11,-1.4,-1.4,Match Report
+8/20/2023,19:30 (13:30),La Liga,Matchweek 2,Sun,Home,W,2,0,Cádiz,2,24,10,41.7,0.08,0.2,15.5,2,0,0,3.4,3.4,0.15,-1.4,-1.4,Match Report
+8/27/2023,17:30 (11:30),La Liga,Matchweek 3,Sun,Away,W,4,3,Villarreal,4,21,11,52.4,0.19,0.36,16.8,0,0,0,3.1,3.1,0.15,0.9,0.9,Match Report
+9/3/2023,21:00 (15:00),La Liga,Matchweek 4,Sun,Away,W,2,1,Osasuna,2,8,3,37.5,0.13,0.33,15.6,0,1,1,2,1.2,0.16,0,-0.2,Match Report
+9/16/2023,21:00 (15:00),La Liga,Matchweek 5,Sat,Home,W,5,0,Betis,5,17,9,52.9,0.29,0.56,18.7,2,0,0,2.4,2.4,0.14,2.6,2.6,Match Report
+9/19/2023,21:00 (15:00),Champions Lg,Group stage,Tue,Home,W,5,0,be Antwerp,4,22,9,40.9,0.18,0.44,13.8,0,0,0,2.8,2.8,0.13,1.2,1.2,Match Report
+9/23/2023,18:30 (12:30),La Liga,Matchweek 6,Sat,Home,W,3,2,Celta Vigo,3,15,6,40,0.2,0.5,20.8,0,0,0,1.6,1.6,0.11,1.4,1.4,Match Report
+9/26/2023,21:30 (15:30),La Liga,Matchweek 7,Tue,Away,D,2,2,Mallorca,2,10,4,40,0.2,0.5,15.5,0,0,0,1.9,1.9,0.19,0.1,0.1,Match Report
+9/29/2023,21:00 (15:00),La Liga,Matchweek 8,Fri,Home,W,1,0,Sevilla,0,18,4,22.2,0,0,13.5,0,0,0,2.4,2.4,0.13,-2.4,-2.4,Match Report
+10/4/2023,20:00 (15:00),Champions Lg,Group stage,Wed,Away,W,1,0,pt Porto,1,14,4,28.6,0.07,0.25,20.3,0,0,0,1.3,1.3,0.09,-0.3,-0.3,Match Report
+10/8/2023,21:00 (15:00),La Liga,Matchweek 9,Sun,Away,D,2,2,Granada,2,22,10,45.5,0.09,0.2,16.9,1,0,0,3,3,0.15,-1,-1,Match Report
+10/22/2023,21:00 (15:00),La Liga,Matchweek 10,Sun,Home,W,1,0,Athletic Club,1,12,7,58.3,0.08,0.14,15.4,0,0,0,1.3,1.3,0.11,-0.3,-0.3,Match Report
+10/25/2023,18:45 (12:45),Champions Lg,Group stage,Wed,Home,W,2,1,ua Shakhtar,2,19,6,31.6,0.11,0.33,17.3,3,0,0,2.6,2.6,0.14,-0.6,-0.6,Match Report
+10/28/2023,16:15 (10:15),La Liga,Matchweek 11,Sat,Home,L,1,2,Real Madrid,1,15,3,20,0.07,0.33,15.9,0,0,0,1.5,1.5,0.1,-0.5,-0.5,Match Report
+11/4/2023,21:00 (16:00),La Liga,Matchweek 12,Sat,Away,W,1,0,Real Sociedad,1,12,4,33.3,0.08,0.25,19.4,1,0,0,1.2,1.2,0.1,-0.2,-0.2,Match Report
+11/7/2023,19:45 (12:45),Champions Lg,Group stage,Tue,Away,L,0,1,ua Shakhtar,0,13,1,7.7,0,0,18.2,0,0,0,0.9,0.9,0.07,-0.9,-0.9,Match Report
+11/12/2023,16:15 (10:15),La Liga,Matchweek 13,Sun,Home,W,2,1,Alavés,2,10,5,50,0.1,0.2,19.4,0,1,1,1.6,0.8,0.08,0.4,0.2,Match Report
+11/25/2023,14:00 (08:00),La Liga,Matchweek 14,Sat,Away,D,1,1,Rayo Vallecano,0,15,4,26.7,0,0,15.8,1,0,0,1,1,0.07,-1,-1,Match Report
+11/28/2023,21:00 (15:00),Champions Lg,Group stage,Tue,Home,W,2,1,pt Porto,2,21,7,33.3,0.1,0.29,16.3,0,0,0,1.8,1.8,0.09,0.2,0.2,Match Report
+12/3/2023,21:00 (15:00),La Liga,Matchweek 15,Sun,Home,W,1,0,Atlético Madrid,1,13,2,15.4,0.08,0.5,14.1,0,0,0,2.6,2.6,0.2,-1.6,-1.6,Match Report
+12/10/2023,21:00 (15:00),La Liga,Matchweek 16,Sun,Home,L,2,4,Girona,2,31,11,35.5,0.06,0.18,15.1,2,0,0,3.7,3.7,0.12,-1.7,-1.7,Match Report
+12/13/2023,21:00 (15:00),Champions Lg,Group stage,Wed,Away,L,2,3,be Antwerp,2,11,3,27.3,0.18,0.67,18.9,0,0,0,1.1,1.1,0.1,0.9,0.9,Match Report
