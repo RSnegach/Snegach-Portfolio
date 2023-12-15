@@ -36,9 +36,13 @@ val_mae = mean_absolute_error(val_predictions, val_y)
 print("Validation MAE when not specifying max_leaf_nodes: {:,.0f}".format(val_mae))
 
 # Using best value for max_leaf_nodes after determining what best value is (trial and error)
-# model.fit(train_X, train_y)
-# val_predictions = iowa_model.predict(val_X)
-# print(val_predictions)
-# print(val_y)
-# val_mae = mean_absolute_error(val_predictions, val_y)
-# print("Validation MAE for best value of max_leaf_nodes: {:,.0f}".format(val_mae))
+model.fit(train_X, train_y)
+val_predictions = model.predict(val_X)
+
+#actual values
+print(val_y)
+#predicted values
+print(val_predictions)
+#mean average error betweena prediction and its associated actual value
+val_mae = mean_absolute_error(val_predictions, val_y)
+print("Validation MAE for best value of max_leaf_nodes: {:,.0f}".format(val_mae))
